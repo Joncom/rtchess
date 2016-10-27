@@ -1,3 +1,5 @@
+/// <reference path = "./../../node_modules/phaser/typescript/phaser.d.ts" />
+
 class Game extends Phaser.State {
 
   constructor() {

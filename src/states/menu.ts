@@ -1,3 +1,5 @@
+/// <reference path = "./../../node_modules/phaser/typescript/phaser.d.ts" />
+
 class Menu extends Phaser.State {
 
   constructor() {
