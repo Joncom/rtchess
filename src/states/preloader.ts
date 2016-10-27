@@ -8,6 +8,9 @@ class Preloader extends Phaser.State {
     this.ready = false;
   }
 
+  asset: Phaser.Sprite;
+  ready: boolean;
+
   preload() {
     //setup loading bar
     this.asset = this.add.sprite(this.game.width * 0.5 - 110, this.game.height * 0.5 - 10, 'preloader');
